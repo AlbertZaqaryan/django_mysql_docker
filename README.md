@@ -25,4 +25,41 @@ A Django project set up with MySQL and Docker for efficient development and depl
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+   
+2. **Create virtual envoirement and activate:**
+   
+   python3 -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   
+4. **Install packages:**
+
+   pip install -r requirements.txt
+
+5. **Configure databases:**
+   DATABASES = {
+       'default': {
+           'ENGINE': 'django.db.backends.mysql',
+           'NAME': 'your-database-name',
+           'USER': 'your-database-user',
+           'PASSWORD': 'your-database-password',
+           'HOST': 'your-database-host',
+           'PORT': 'your-database-port',
+       }
+   }
+6. **Migration:**
+
+   python manage.py migrate
+   python manage.py createsuperuser
+
+## Usage
+
+1. **Run project:**
+
+   python manage.py runserver
+
+2. **Access the application:**
+   
+   Open your browser and navigate to http://127.0.0.1:8000/.
+
+
 
