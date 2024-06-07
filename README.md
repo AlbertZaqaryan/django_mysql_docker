@@ -27,15 +27,19 @@ A Django project set up with MySQL and Docker for efficient development and depl
    cd your-repo
    
 2. **Create virtual envoirement and activate:**
-   
+
+   ```bash
    python3 -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
    
 4. **Install packages:**
 
+   ```bash
    pip install -r requirements.txt
 
 5. **Configure databases:**
+
+   ```bash
    DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.mysql',
@@ -46,8 +50,9 @@ A Django project set up with MySQL and Docker for efficient development and depl
            'PORT': 'your-database-port',
        }
    }
-6. **Migration:**
+7. **Migration:**
 
+   ```bash
    python manage.py migrate
    python manage.py createsuperuser
 
@@ -55,10 +60,12 @@ A Django project set up with MySQL and Docker for efficient development and depl
 
 1. **Run project:**
 
+   ```bash
    python manage.py runserver
 
 2. **Access the application:**
-   
+
+   ```bash
    Open your browser and navigate to http://127.0.0.1:8000/.
 
 
