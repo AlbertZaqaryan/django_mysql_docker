@@ -6,8 +6,6 @@ A Django project set up with MySQL and Docker for efficient development and depl
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 ![Docker](https://img.shields.io/badge/Docker-20.10-blue)
 
-![Project Screenshot](path/to/screenshot.png)
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -128,9 +126,3 @@ A Django project set up with MySQL and Docker for efficient development and depl
       Commit your changes (git commit -am 'Add some feature').
       Push to the branch (git push origin feature/your-feature).
       Create a new Pull Request.
-
-
-   
-
-
-
